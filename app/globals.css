@@ -16,11 +16,6 @@ p {
   font-family: var(--font-jost), sans-serif;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-}
-
 .w{
   margin: 0 auto;
   width: 1400px;
