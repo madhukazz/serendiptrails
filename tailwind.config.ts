@@ -9,8 +9,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "var(--primary)",
+        secondary: "var(--secondary)",
+        paragraph: "var(--paragraph)",
+      },
+      fontFamily: {
+        raleway: ["var(--font-raleway)", "sans-serif"],
+        montserrat: ["var(--font-montserrat)", "sans-serif"],
+        jost: ["var(--font-jost)", "sans-serif"],
+        satisfy: ["var(--font-satisfy)", "sans-serif"],
       },
     },
   },
