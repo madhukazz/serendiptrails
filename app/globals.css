@@ -28,6 +28,13 @@ p {font-family: var(--font-jost), sans-serif;color: var(--paragraph);}
   transition: all 0.3s;
 }
 
+.cursive{
+  font-family: var(--font-satisfy);
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: var(--primary);
+}
+
 /* @layer components {
   a {
     @apply transition-all duration-300;

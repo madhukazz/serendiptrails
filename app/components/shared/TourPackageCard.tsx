@@ -5,8 +5,8 @@ import TourPackageImage from "@/public/assets/images/tourpackage.jpg"
 const TourPackageCard = () => {
   return (
     <div className="rounded-xl bg-white shadow-lg group">
-        <div className="relative">
-            <Image className="rounded-t-xl" src={TourPackageImage} alt="tour image" />
+        <div className="relative overflow-hidden rounded-t-xl h-60">
+            <Image className="rounded-t-xl group-hover:scale-150 transition-all duration-700" src={TourPackageImage} alt="tour image" />
             <span className="bg-primary text-white absolute top-5 left-5 p-1 w-24 text-center text-sm font-jost font-semibold rounded-md"><i className="ri-time-line font-normal mr-1"></i>13 Nights</span>
         </div>
         <div className="p-5 flex flex-col gap-4">
