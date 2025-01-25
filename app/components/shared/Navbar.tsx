@@ -48,10 +48,10 @@ const Navbar = () => {
 
                     {/* Tours submenu */}
                     {item.name === "Tours" && (
-                        <ul className="absolute left-0 invisible group-hover:visible bg-white shadow-lg mt-2 space-y-2 w-[250px]">
+                        <ul className="z-10 absolute left-0 invisible group-hover:visible bg-white shadow-lg mt-2 space-y-2 w-[250px]">
                             {tourItems.map((tour: NavItem, index: number) => (
-                                <li key={index} className="font-montserrat hover:bg-primary hover:text-white transition-all duration-300 py-2 px-3 !mt-0">
-                                    <Link className="text-sm font-medium inline-block w-full" href={tour.href}>{tour.name}</Link>
+                                <li key={index} className="font-montserrat hover:bg-primary hover:text-white transition-all duration-300 !mt-0">
+                                    <Link className="text-sm font-medium inline-block w-full py-2 px-3" href={tour.href}>{tour.name}</Link>
                                 </li>
                             ))}
                         </ul>
