@@ -15,7 +15,20 @@ p {font-family: var(--font-jost), sans-serif;color: var(--paragraph);}
 .w{margin: 0 auto;width: 1400px;}
 
 
-@layer components {
+.button-style {
+  color: white;
+  background-color: var(--primary);
+  border: 1px solid var(--primary);
+  transition: all 0.3s;
+}
+.button-style:hover {
+  color: var(--primary);
+  background-color: white;
+  border: 1px solid var(--primary);
+  transition: all 0.3s;
+}
+
+/* @layer components {
   a {
     @apply transition-all duration-300;
   }
@@ -23,7 +36,7 @@ p {font-family: var(--font-jost), sans-serif;color: var(--paragraph);}
   a:hover {
     @apply text-primary bg-white border border-primary;
   }
-}
+} */
 
 
 @media screen and (max-width: 1220px) {

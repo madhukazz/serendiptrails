@@ -35,7 +35,7 @@ const Navbar = () => {
             {NavItems.map((item: NavItem, index: number) => (
                 <li className="font-montserrat relative group" key={index}>
                     <Link
-                        className={`flex items-center text-secondary font-semibold uppercase text-sm hover:text-primary transition-all duration-300 group ${
+                        className={`flex items-center text-secondary font-semibold uppercase text-sm hover:text-primary transition-all duration-300 group border-none ${
                             path === item.href ? "text-primary" : ""
                         }`}
                         href={item.href}
