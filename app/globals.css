@@ -18,6 +18,7 @@ h2{
 
 p {
   font-family: var(--font-jost), sans-serif;
+  color: var(--paragraph);
 }
 
 .w{
