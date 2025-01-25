@@ -16,7 +16,7 @@ const TourPackageCard = () => {
                 <span className="text-secondary font-jost">Kandy, Nuwara Eliya, Ella, Mirissa</span>
             </div>
             <div className="flex justify-between items-center mt-2">
-                <Link className="p-2 rounded-md w-32 text-center font-semibold text-primary bg-white border border-primary group-hover:bg-primary group-hover:text-white transition-all duration-300" href="/">Book Now <i className="ri-arrow-right-long-line transform"></i></Link>
+                <Link className="p-2 rounded-md w-32 text-center font-semibold text-primary bg-white border border-primary group-hover:bg-primary group-hover:text-white transition-all duration-300" href="/">Book Now <i className="ri-arrow-right-long-line inline-block transform group-hover:translate-x-1 transition-all duration-100"></i></Link>
                 <div className="flex flex-col items-end">
                     <span className="text-secondary font-semibold text-base font-jost">Starting From</span>
                     <span className="text-primary font-bold font-raleway text-xl">$2649.80 <span className="line-through">$3444</span></span>
