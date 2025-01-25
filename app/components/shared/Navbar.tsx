@@ -1,6 +1,8 @@
 'use client'
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import PlusIcon from "@/public/assets/icons/add-line.svg"
+import Image from "next/image";
 
 interface NavItem {
     name: string;
@@ -33,14 +35,14 @@ const Navbar = () => {
             {NavItems.map((item: NavItem, index: number) => (
                 <li className="font-montserrat relative group" key={index}>
                     <Link
-                        className={`text-secondary font-semibold uppercase text-sm hover:text-primary transition-all duration-300 group ${
+                        className={`flex items-center text-secondary font-semibold uppercase text-sm hover:text-primary transition-all duration-300 group ${
                             path === item.href ? "text-primary" : ""
                         }`}
                         href={item.href}
                     >
                         {item.name}
                         {item.name === "Tours" && (
-                            <i className="ri-add-line ml-1 text-primary transform transition-transform duration-300 group-hover:rotate-45"></i>
+                            <Image className="w-5 h-5 ml-1 text-primary transform transition-transform duration-300 group-hover:rotate-180" src={PlusIcon} alt="plus icon" />
                         )}
                     </Link>
 

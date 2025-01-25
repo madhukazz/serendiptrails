@@ -12,6 +12,10 @@ h1 {
   font-family: var(--font-raleway), sans-serif;
 }
 
+h2{
+  font-family: var(--font-montserrat), sans-serif;
+}
+
 p {
   font-family: var(--font-jost), sans-serif;
 }
