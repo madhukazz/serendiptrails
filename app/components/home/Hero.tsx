@@ -6,7 +6,7 @@ const Hero = () => {
         <div className="w absolute flex flex-col items-center gap-5 z-[1]">
             <h1 className="text-white text-6xl uppercase font-bold text-center">Discover Sri Lanka <br /> Like Never Before</h1>
             <p className="text-white text-md text-center">Uncover the beauty, culture, and adventure of Sri Lanka. From serene beaches to historic landmarks, <br /> let Serendip Trails craft your perfect journey.</p>
-            <Link className="bg-primary text-white inline-block p-2 w-40 text-center cursor-pointer" href='/'>Explore Now</Link>
+            <Link className="bg-primary text-white inline-block p-2 w-40 text-center cursor-pointer border border-primary" href='/'>Explore Now</Link>
         </div>
         <video
             autoPlay
