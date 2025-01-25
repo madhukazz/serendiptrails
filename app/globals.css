@@ -6,20 +6,38 @@
   --primary: #008080;
   --secondary: #2d373c;
   --paragraph: #666666;
+  --background: #faf9fb;
 }
 
-h1 {
-  font-family: var(--font-raleway), sans-serif;
+h1 {font-family: var(--font-raleway), sans-serif;}
+h2, h3{font-family: var(--font-montserrat), sans-serif;}
+p {font-family: var(--font-jost), sans-serif;color: var(--paragraph);}
+.w{margin: 0 auto;width: 1400px;}
+
+
+.button-style {
+  color: white;
+  background-color: var(--primary);
+  border: 1px solid var(--primary);
+  transition: all 0.3s;
+}
+.button-style:hover {
+  color: var(--primary);
+  background-color: white;
+  border: 1px solid var(--primary);
+  transition: all 0.3s;
 }
 
-p {
-  font-family: var(--font-jost), sans-serif;
-}
+/* @layer components {
+  a {
+    @apply transition-all duration-300;
+  }
 
-.w{
-  margin: 0 auto;
-  width: 1400px;
-}
+  a:hover {
+    @apply text-primary bg-white border border-primary;
+  }
+} */
+
 
 @media screen and (max-width: 1220px) {
   .w {

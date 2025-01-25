@@ -1,6 +1,11 @@
+import Hero from "./components/home/Hero";
+import TourPackages from "./components/home/TourPackages";
+
 export default function Home() {
   return (
-    <h1>
-    </h1>
+    <>
+      <Hero />
+      <TourPackages />
+    </>
   );
 }

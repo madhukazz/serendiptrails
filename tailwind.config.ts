@@ -12,6 +12,7 @@ export default {
         primary: "var(--primary)",
         secondary: "var(--secondary)",
         paragraph: "var(--paragraph)",
+        background: "var(--background)",
       },
       fontFamily: {
         raleway: ["var(--font-raleway)", "sans-serif"],
