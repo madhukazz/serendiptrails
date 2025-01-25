@@ -7,6 +7,7 @@
   --secondary: #2d373c;
   --paragraph: #666666;
   --background: #faf9fb;
+  --background: #faf9fb;
 }
 
 h1 {font-family: var(--font-raleway), sans-serif;}
@@ -26,6 +27,13 @@ p {font-family: var(--font-jost), sans-serif;color: var(--paragraph);}
   background-color: white;
   border: 1px solid var(--primary);
   transition: all 0.3s;
+}
+
+.cursive{
+  font-family: var(--font-satisfy);
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: var(--primary);
 }
 
 /* @layer components {
