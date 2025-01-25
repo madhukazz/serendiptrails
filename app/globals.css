@@ -6,10 +6,11 @@
   --primary: #008080;
   --secondary: #2d373c;
   --paragraph: #666666;
+  --background: #faf9fb;
 }
 
 h1 {font-family: var(--font-raleway), sans-serif;}
-h2{font-family: var(--font-montserrat), sans-serif;}
+h2, h3{font-family: var(--font-montserrat), sans-serif;}
 p {font-family: var(--font-jost), sans-serif;color: var(--paragraph);}
 .w{margin: 0 auto;width: 1400px;}
 
