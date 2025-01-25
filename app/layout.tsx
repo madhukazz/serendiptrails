@@ -17,7 +17,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${raleway.variable} ${montserrat.variable} ${jost.variable} ${satisfy.variable}`}>
+    <html lang="en" className={`${raleway.variable} ${montserrat.variable} ${jost.variable} ${satisfy.variable} scroll-smooth`}>
       <body className="antialiased">
         <Header/>
         {children}

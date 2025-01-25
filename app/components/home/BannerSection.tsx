@@ -11,7 +11,7 @@ const BannerSection = () => {
                 <span className="cursive">Customizable Tours</span>
                 <h4 className="font-raleway text-3xl font-bold">Your Adventure, Your Way</h4>
                 <p className="text-white font-medium text-md">Design a personalized journey tailored to your preferences. Choose your destinations, activities, and travel pace for a unique travel experience.</p>
-                <Link className="button-style py-2 px-4 inline-block rounded-md w-fit" href="/">Start Customizing Now</Link>
+                <Link className="button-style py-2 px-4 inline-block rounded-md w-fit font-jost font-semibold" href="/">Start Customizing Now</Link>
             </div>
         </div>
     </div>
