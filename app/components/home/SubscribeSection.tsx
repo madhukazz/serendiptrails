@@ -38,12 +38,12 @@ const SubscribeSection = () => {
                 <h2 className="font-bold text-5xl">Get 12% OFF Your First TRIP!</h2>
                 <p className="text-white text-base font-semibold">Join our newsletter and receive a 12% discount on your first adventure with us. Don’t miss the opportunity to explore Sri Lanka’s wonders.</p>
                 <form>
-                    <input type="email" className="w-full p-2 rounded-md text-secondary border border-primary font-raleway font-semibold outline-primary text-sm" placeholder="Email Address" />
+                    <input type="email" className="w-full p-3 rounded-md text-secondary border border-primary font-raleway font-semibold outline-primary text-sm" placeholder="Email Address" />
                     <button className="button-style uppercase inline-block mt-5 p-2 font-semibold text-sm w-full rounded-md">Subscribe</button>
                 </form>
             </div>
         </div>
-            <div className="w absolute -bottom-28 flex justify-between gap-5 w-full">
+            <div className="w absolute -bottom-20 flex justify-between gap-5 w-full">
                 {cardImages.map((card, index) => (
                     <div className="bg-white rounded-lg shadow-lg p-5 flex flex-col items-center justify-center w-[22%] transform hover:-translate-y-10 transition-all duration-500" key={index}>
                         <Image className="w-16" src={card.image} alt={card.name} />
