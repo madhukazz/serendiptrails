@@ -9,8 +9,10 @@ const Destinations = () => {
                 <h2 className="font-bold text-3xl text-secondary">Explore Top Destination</h2>
                 <p className="">Discover Sri Lanka’s most captivating destinations. From cultural landmarks to tranquil beaches, explore the diverse landscapes that <br /> make this island so special.</p>
             </div>
-            <div className="my-20">
-              <DestinationCard />
+            <div className="my-20 flex gap-5 flex-wrap">
+              {Array.from({ length: 6 }).map((_, index) => (
+                <DestinationCard key={index} width={ index === 0 || index === 5 ? "w-[48%]" : "w-[23.5%]" } />
+              ))}
             </div>
         </div>
     </div>
