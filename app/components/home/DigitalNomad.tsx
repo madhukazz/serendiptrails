@@ -4,7 +4,7 @@ import DigitalNomadImage from "@/public/assets/images/dgital-nomad.png"
 
 const DigitalNomad = () => {
   return (
-    <section className="bg-background py-5">
+    <section className="bg-background py-10">
         <div className="w flex items-center justify-between">
             <div className="w-3/5">
                 <h5 className="font-raleway text-secondary text-xl font-semibold pb-3">Work, Travel, and Thrive as a Digital Nomad</h5>
