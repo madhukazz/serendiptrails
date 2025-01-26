@@ -14,7 +14,7 @@ const jost = Jost({ subsets: ["latin"], variable: "--font-jost" });
 
 export const metadata: Metadata = {
   title: "Serendiptrails",
-  description: "Digital Marketing",
+  description: "Serendiptrails is a travel agency that offers the best holiday packages for adventurers, couples, and digital nomads. Discover the best of Sri Lanka with our carefully curated offers.",
 };
 
 export default function RootLayout({
