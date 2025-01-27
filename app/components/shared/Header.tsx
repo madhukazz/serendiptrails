@@ -10,7 +10,7 @@ const Header = () => {
 
     useEffect(() => {
         const handleScroll = () => {
-          setIsScrolled(window.scrollY > 10);
+          setIsScrolled(window.scrollY > 150);
         };
     
         window.addEventListener("scroll", handleScroll);
@@ -21,7 +21,7 @@ const Header = () => {
       }, []);
 
     return (
-        <header className={`bg-white py-2 shadow-lg z-10 transition-all duration-1000 ${isScrolled ? "fixed transform top-0 w-[-webkit-fill-available] shadow-xl" : ""}`}>
+        <header className={`bg-white py-2 shadow-lg z-10 transition-all duration-700 ${isScrolled ? "fixed transform translate-y-0 w-[-webkit-fill-available] shadow-xl" : ""}`}>
             <div className="w flex items-center justify-between">
                 <Image className="w-[230px]" src={Logo} alt="Serendiptrails Logo" />
                 <Navbar />
