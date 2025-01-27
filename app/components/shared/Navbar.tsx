@@ -11,10 +11,10 @@ interface NavItem {
 
 const NavItems: NavItem[] = [
     { name: "Home", href: "/" },
-    { name: "Tours", href: "/" },
-    { name: "Destinations", href: "destinations" },
-    { name: "Gallery", href: "/" },
-    { name: "Contact Us", href: "/" },
+    { name: "Tours", href: "/tours" },
+    { name: "Destinations", href: "/destinations" },
+    { name: "Gallery", href: "/gallery" },
+    { name: "Contact Us", href: "/contact-us" },
 ];
 
 const tourItems: NavItem[] = [
@@ -29,15 +29,15 @@ const tourItems: NavItem[] = [
 const Navbar = () => {
 
     const path: string = usePathname();
+    console.log(path);
+    
 
   return (
         <ul className="flex gap-6">
             {NavItems.map((item: NavItem, index: number) => (
                 <li className="font-montserrat relative group" key={index}>
                     <Link
-                        className={`flex items-center text-secondary font-semibold uppercase text-sm hover:text-primary transition-all duration-300 group border-none ${
-                            path === item.href ? "text-primary" : ""
-                        }`}
+                        className={`flex items-center font-semibold uppercase text-sm hover:text-primary transition-all duration-300 group border-none ${path === item.href ? "text-primary" : "text-secondary"}`}
                         href={item.href}
                     >
                         {item.name}

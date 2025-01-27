@@ -13,7 +13,7 @@ const Hero = () => {
             loop
             muted
             playsInline
-            className="w-full h-[600px] object-cover"
+            className="w-full h-[700px] object-cover"
         >
         <source src="assets/video/serendiptrails-hero.mp4" type="video/mp4" />
         </video>
