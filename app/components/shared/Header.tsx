@@ -25,7 +25,7 @@ const Header = () => {
         isScrolled ? "shadow-lg py-1" : "py-2"
       }`}
     >
-      <div className="max-w-7xl mx-auto flex items-center justify-between px-6 md:px-10">
+      <div className="w mx-auto flex items-center justify-between">
         <Image className="w-[230px]" src={Logo} alt="Serendiptrails Logo" />
         <Navbar />
         <div className="flex gap-5">
