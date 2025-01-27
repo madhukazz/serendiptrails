@@ -1,4 +1,5 @@
 import BannerSection from "./components/home/BannerSection";
+import Blog from "./components/home/Blog";
 import Destinations from "./components/home/Destinations";
 import DigitalNomad from "./components/home/DigitalNomad";
 import Hero from "./components/home/Hero";
@@ -16,6 +17,7 @@ export default function Home() {
       <DigitalNomad />
       <SubscribeSection />
       <HolidayOffers />
+      <Blog />
     </>
   );
 }
