@@ -11,7 +11,7 @@ const Destinations = () => {
             </div>
             <div className="mb-5 mt-16 flex gap-5 flex-wrap">
               {Array.from({ length: 6 }).map((_, index) => (
-                <DestinationCard key={index} width={ index === 0 || index === 5 ? "w-[48%]" : "w-[23.5%]" } />
+                <DestinationCard key={index} style={ index === 0 || index === 5 ? "w-[48%]" : "w-[23.5%]" } />
               ))}
             </div>
         </div>
