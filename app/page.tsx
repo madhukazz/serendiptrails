@@ -6,6 +6,7 @@ import Hero from "./components/home/Hero";
 import HolidayOffers from "./components/home/HolidayOffers";
 import SubscribeSection from "./components/home/SubscribeSection";
 import TourPackages from "./components/home/TourPackages";
+import TourPlan from "./components/home/TourPlan";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <SubscribeSection />
       <HolidayOffers />
       <Blog />
+      <TourPlan />
     </>
   );
 }
