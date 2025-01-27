@@ -1,10 +1,27 @@
+'use client'
 import Image from "next/image"
 import Logo from "@/public/assets/images/logo.png"
 import Navbar from "./Navbar"
+import { useEffect, useState } from "react";
 
 const Header = () => {
+
+    const [isScrolled, setIsScrolled] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+          setIsScrolled(window.scrollY > 10);
+        };
+    
+        window.addEventListener("scroll", handleScroll);
+    
+        return () => {
+          window.removeEventListener("scroll", handleScroll);
+        };
+      }, []);
+
     return (
-        <header className="bg-white py-2 shadow-md">
+        <header className={`bg-white py-2 shadow-lg z-10 transition-all duration-1000 ${isScrolled ? "fixed transform top-0 w-[-webkit-fill-available] shadow-xl" : ""}`}>
             <div className="w flex items-center justify-between">
                 <Image className="w-[230px]" src={Logo} alt="Serendiptrails Logo" />
                 <Navbar />
