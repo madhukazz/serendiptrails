@@ -3,6 +3,7 @@ import "./globals.css";
 import 'remixicon/fonts/remixicon.css'
 import Header from "./components/shared/Header";
 import { Metadata } from "next";
+import Footer from "./components/shared/Footer";
 
 const raleway = Raleway({ subsets: ["latin"], variable: "--font-raleway" });
 const satisfy = Satisfy({
@@ -27,6 +28,7 @@ export default function RootLayout({
       <body className="antialiased">
         <Header/>
         {children}
+        <Footer/>
       </body>
     </html>
   );
