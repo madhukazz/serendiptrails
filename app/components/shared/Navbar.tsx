@@ -27,10 +27,7 @@ const tourItems: NavItem[] = [
 ];
 
 const Navbar = () => {
-
     const path: string = usePathname();
-    console.log(path);
-    
 
   return (
         <ul className="flex gap-6">
