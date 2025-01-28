@@ -3,6 +3,7 @@ import Image from "next/image";
 import Logo from "@/public/assets/images/logo.png";
 import Navbar from "./Navbar";
 import { useEffect, useState } from "react";
+import Link from "next/link";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -26,7 +27,7 @@ const Header = () => {
       }`}
     >
       <div className="w mx-auto flex items-center justify-between">
-        <Image className="w-[230px]" src={Logo} alt="Serendiptrails Logo" />
+        <Link href="/"><Image className="w-[230px]" src={Logo} alt="Serendiptrails Logo" /></Link>
         <Navbar />
         <div className="flex gap-5">
           <button className="bg-white rounded-full p-2 w-12 h-12 shadow-sm group hover:bg-primary">
