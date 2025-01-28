@@ -9,10 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "formik": "^2.4.6",
     "next": "15.1.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "remixicon": "^4.6.0"
+    "remixicon": "^4.6.0",
+    "yup": "^1.6.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
