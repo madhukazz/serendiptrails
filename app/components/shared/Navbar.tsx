@@ -18,12 +18,12 @@ const NavItems: NavItem[] = [
 ];
 
 const tourItems: NavItem[] = [
-    { name: "Adventure Sports", href: "/adventure-sports-tours" },
-    { name: "Honeymoon Packages", href: "/honeymoon-tours" },
-    { name: "Multiday Tours", href: "/multiday-tours" },
-    { name: "Day Out Packages", href: "/day-out-packages" },
-    { name: "Digital Nomad", href: "/digital-nomad" },
-    { name: "Custom Tours", href: "/custom-tours" },
+    { name: "Adventure Sports", href: "/tours/adventure-sports-tours" },
+    { name: "Honeymoon Packages", href: "/tours/honeymoon-tours" },
+    { name: "Multiday Tours", href: "/tours/multiday-tours" },
+    { name: "Day Out Packages", href: "/tours/day-out-packages" },
+    { name: "Digital Nomad", href: "/tours/digital-nomad" },
+    { name: "Custom Tours", href: "/tours/custom-tours" },
 ];
 
 const Navbar = () => {
