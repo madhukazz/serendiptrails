@@ -22,8 +22,8 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed top-0 left-0 w-full z-10 transition-all duration-500 ease-in-out bg-white ${
-        isScrolled ? "shadow-lg py-1" : "py-2"
+      className={`fixed top-0 left-0 w-full z-10 transition-all duration-500 ease-in-out bg-white shadow-lg ${
+        isScrolled ? "py-1" : "py-2"
       }`}
     >
       <div className="w mx-auto flex items-center justify-between">
