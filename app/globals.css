@@ -35,17 +35,6 @@ p {font-family: var(--font-jost), sans-serif;color: var(--paragraph);}
   color: var(--primary);
 }
 
-/* @layer components {
-  a {
-    @apply transition-all duration-300;
-  }
-
-  a:hover {
-    @apply text-primary bg-white border border-primary;
-  }
-} */
-
-
 @media screen and (max-width: 1220px) {
   .w {
     width: 96%;
